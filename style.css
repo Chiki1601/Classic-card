@@ -1,0 +1,108 @@
+html,
+body {
+  background: #5d0404;
+}
+
+.container {
+  width: 100%;
+  height: 680px !important;
+}
+
+#dragger {
+  align-self: center;
+  align-text: center;
+}
+
+p {
+  align-self: center;
+  text-align: center;
+}
+
+.rowParent, .columnParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.columnParent {
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flexChild {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: center;
+}
+
+.container-fab {
+  justify-content: center;
+  align-items: center;
+}
+
+#path1,
+#path2,
+#path3,
+#path4,
+#path5,
+#path6,
+#path7 {
+  z-index: 1;
+}
+
+#blueguy {
+  z-index: 2;
+}
+
+.container {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+svg {
+  margin-left: 0rem;
+  width: 100%;
+  align-self: start;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.view {
+  visibility: visible;
+}
